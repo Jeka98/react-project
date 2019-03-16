@@ -1,0 +1,25 @@
+$white: #ffffff;
+$red: #be2835;
+
+.menu {
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 1024px;
+    width: 100%;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+            color: $white;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        & :hover {
+            color: $red;
+        }
+    }
+}
