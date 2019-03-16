@@ -5,6 +5,7 @@ import Navigation from "./Navigation/Navigation";
 import Header from "./Header/Header";
 import Aside from "./Aside/Aside";
 import Content from "./Content/Content";
+import Footer from "./Footer/Footer";
 
 class App extends Component {
     render() {
@@ -18,8 +19,8 @@ class App extends Component {
                     <Aside/>
                     <Content/>
                 </div>
+                <Footer/>
             </div>
-
         );
     }
 }
