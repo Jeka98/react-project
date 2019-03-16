@@ -1,0 +1,25 @@
+$red: #be2835;
+
+.content {
+    width: 80%;
+
+    .content__item {
+        display: flex;
+        flex-direction: row;
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid $red;
+        border-radius: 6px;
+        
+        img {
+            height: 160px;
+            width: 250px;
+        }
+
+        & p {
+            text-indent: 20px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+    }
+}

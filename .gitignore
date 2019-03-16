@@ -1,0 +1,6 @@
+**/.idea
+**/dist
+**/.DS_Store
+**/node_modules
+public/
+constants/constantsDev.js
